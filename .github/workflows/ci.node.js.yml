@@ -14,8 +14,8 @@ jobs:
 
     runs-on: ubuntu-latest
 
-
-
     steps:
     - uses: actions/checkout@v3
-    - run: npm ci
+    - run: echo "Hello World for Port Harcourt Ada Goerge area"
+    - run: ls -l
+    
